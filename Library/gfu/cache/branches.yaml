@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2022-05-02T22:49:19.829+01:00
+  lastUpdatedAtString: 2022-05-02T23:01:51.633+01:00
   initializedAtString: 2022-05-02T22:47:45.561+01:00
-  localBranches: []
-  remoteBranches: []
+  localBranches:
+  - name: Development
+    tracking: origin/Development
+  remoteBranches:
+  - name: origin/Development
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/Neil-McGuigan/UnityGame/
@@ -26,15 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - Development
+    values:
+    - name: Development
+      remote:
+        name: origin
+        url: https://github.com/Neil-McGuigan/UnityGame/
+      trackingBranch: Development
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
-    - Values: []
+    - Values:
+      - Development
     subKeyValues:
-    - Values: []
+    - Values:
+      - name: Development
+        remote:
+          name: origin
+          url: https://github.com/Neil-McGuigan/UnityGame/
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
